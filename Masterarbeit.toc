@@ -1,0 +1,18 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {section}{\numberline {2}Foundations}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Teleconnections}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}AO}{6}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Southern Annular Mode (SAM)}{6}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Impacts on Southern Hemisphere('s) Climate}{8}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}drivers of the sam}{9}{subsection.2.3}
+\contentsline {section}{\numberline {3}Methods}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Empirical Orthogonal Function Analysis}{13}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Basic principle in two dimensions}{13}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Extension and Generalisation to higher dimensions}{14}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Application to climatic data}{16}{subsection.3.2}
+\contentsline {section}{\numberline {4}Data and models}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}ERA-Interim reanalysis Data}{18}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}models}{18}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}MPI-ESM}{18}{subsubsection.4.2.1}
+\contentsline {section}{\nonumberline References}{20}{section*.10}

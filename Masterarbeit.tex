@@ -1,0 +1,137 @@
+% Vorlage für eine Bachelorarbeit
+% Siehe auch LaTeX-Kurs von Mathematik-Online
+% www.mathematik-online.org/kurse
+% Anpassungen für die Fakultät für Mathematik
+% am KIT durch Klaus Spitzmüller und Roland Schnaubelt im Dezember 2011
+
+\documentclass[12pt,a4paper,titlepage,headinclude,bibtotoc]{scrartcl}
+% scrartcl ist eine abgeleitete Artikel-Klasse im Koma-Skript
+% zur Kontrolle des Umbruchs Klassenoption draft verwenden
+
+
+
+% die folgenden Packete erlauben den Gebrauch von Umlauten und ß
+% in der Latex Datei
+\usepackage[utf8]{inputenc}
+% \usepackage[latin1]{inputenc} %  Alternativ unter Windows
+\usepackage{scrpage2}
+\pagestyle{scrheadings}
+\usepackage{comment}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage{chngcntr}
+\usepackage{bm}
+\counterwithin{figure}{section}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{latexsym}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+% Abstand obere Blattkante zur Kopfzeile ist 2.54cm - 15mm
+\setlength{\topmargin}{-15mm}
+
+
+% Umgebungen für Definitionen, Sätze, usw.
+% Es werden Sätze, Definitionen etc innerhalb einer Section mit
+% 1.1, 1.2 etc durchnummeriert, ebenso die Gleichungen mit (1.1), (1.2) ..
+
+\newtheorem{Satz}{Satz}[section]
+\newtheorem{Definition}[Satz]{Definition}     
+\newtheorem{Lemma}[Satz]{Lemma}	
+                  
+\numberwithin{equation}{section} 
+
+% einige Abkuerzungen
+\newcommand{\C}{\mathbb{C}} % komplexe
+\newcommand{\K}{\mathbb{K}} % komplexe
+\newcommand{\R}{\mathbb{R}} % reelle
+\newcommand{\Q}{\mathbb{Q}} % rationale
+\newcommand{\Z}{\mathbb{Z}} % ganze
+\newcommand{\N}{\mathbb{N}} % natuerliche
+
+
+
+\begin{document}
+  % Keine Seitenzahlen im Vorspann
+
+  % Titelblatt der Arbeit
+  \begin{titlepage}
+
+
+    \vspace*{2cm} 
+
+ \begin{center} \large 
+    
+    Master thesis\\
+    \vspace*{2cm}
+    {\huge LLLLLl\\}
+    \vspace*{1.5cm}
+   {\huge LLLLL}\\
+   
+    \vspace*{1.5cm}
+	prepared by\\
+	\vspace*{1cm}
+   \textbf{\Large Johannes Riebold}\\
+   \vspace*{1cm}
+   from Schelldorf\\
+   \vspace{2cm}
+    \end{center}
+    \begin{tabbing}
+   \vspace*{1cm}
+  \= \textbf{ Date of submission:}\= 55.5\\
+   \vspace{0.8cm}
+   \> \textbf{ First referee:} \>  \\
+    \vspace*{0.3cm}
+   \> \textbf{ Second referee:} \> 
+    \end{tabbing}
+
+
+    
+    
+ 
+\end{titlepage}
+\newpage
+\section*{Abstract}
+
+\newpage
+  % Inhaltsverzeichnis
+  \tableofcontents
+
+\newpage
+
+  % Ab sofort Seitenzahlen in der Kopfzeile anzeveigen
+  
+
+
+
+\newpage
+  
+
+
+
+
+
+\section{Introduction}
+\label{sec:Einleitung}
+
+\section{Foundations}
+\include{teleconnections}
+\section{Methods}
+\label{sec:Methods}
+
+\include{Theorie}
+
+\include{Data}
+
+\newpage
+\bibliographystyle{unsrt}
+\bibliography{Masterarbeit.bib}
+
+
+
+\end{document}
+

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Masterarbeit.aux
+A level-1 auxiliary file: teleconnections.aux
+A level-1 auxiliary file: Theorie.aux
+A level-1 auxiliary file: Data.aux
+The style file: unsrt.bst
+Database file #1: Masterarbeit.bib.bib
+Warning--empty journal in Kidston2009
+You've used 18 entries,
+            1791 wiz_defined-function locations,
+            585 strings with 6798 characters,
+and the built_in function-call counts, 4212 in all, are:
+= -- 377
+> -- 178
+< -- 0
++ -- 66
+- -- 48
+* -- 362
+:= -- 679
+add.period$ -- 54
+call.type$ -- 18
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 161
+empty$ -- 410
+format.name$ -- 48
+if$ -- 898
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 19
+newline$ -- 93
+num.names$ -- 18
+pop$ -- 28
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 61
+stack$ -- 0
+substring$ -- 361
+swap$ -- 17
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 43
+width$ -- 20
+write$ -- 197
+(There was 1 warning)

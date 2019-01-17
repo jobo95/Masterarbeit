@@ -1,0 +1,20 @@
+\section{Data and models}
+\subsection{ERA-Interim reanalysis Data}
+For evaluating the performance of several climate models, data from ERA-Interim reanalysis are used for comparison, which is a global atmospheric reanalysis data set provided by  ECMWF (European  Centre  of  Medium-Range
+Weather Forecasts) and the successor of the. The data set is continuously updated in real time and extends back to 1979. As with all reanalysis data, they are produced via data assimilation, a process that relies on both observational data (in-situ and satellite measurements) and model-based forecasts to estimate the true conditions of the climate system. The assimilation system used to produce the data includes a 4-dimensional variational analysis (with a 12-hour analysis window) and results in 6-hourly output with a spatial resolution of approximately 80 km (T255)????????? auflösung 1 mal 2 grad???? on 60 oder 37???? vertical levels from the surface up to $0.1,/$hPa.....\\\\
+For our analysis we mostly use monthly averages of geopotential height fields of different pressure levels, measured in geopotential metres gpm (units $\frac{\mathrm{m}^2}{\mathrm{s}^2}$). A geopotential metre 1\,gpm corresponds to the height at which an air parcel with mass 1\,kg has a potential energy of 9.80665\,J.Thus, at mid-latitudes where the gravity constant $g$ is close to $g_0=9.80665\,\frac{\text{m}}{\mathrm{s}^2}$ a geopotential metre approximately coincides with the height of a geometric metre, whereas at the poles where $g>g_0$ a geopotential metre lies above the geometric height of 1\,m.?????? Since an air parcels moving  along a surface of constant geopotential heigth maintains its potential energy, the unit geopotential metre is commonly used in atmospheric research instead of geometric height $z$.
+extrapolated bewlow 700 hPa
+\subsection{models}
+Climate
+\subsubsection{MPI-ESM}
+The Max Planck Institute - Earth System Model (MPI-ESM) is completely coupled climate model, which  couples the atmosphere, ocean and land surface through the exchange of energy, momentum, water and carbon dioxide. It is based on the following components:
+\begin{description}
+
+	\item ECHAM6??
+		 is an atmospheric general circulation model, developed at the Max Planck Institute for Meteorology, which is based on a spectral-transform dynamical core. It is configured to run at different resolutions. For the Coupled Model Intercomparison Project 5 (CMIP5) ECHAM6.1 was used in the LR (T063L47) and MR (T063L95) resolution configurations, which stand for the truncation after the 63 wave component and 47 and 95 vertical levels respectively??
+	\item MPIOM ( Max Planck Institute ocean model) is the primitive equation ocean sea-ice component of the MPI-ESM with hydrostatic and Boussinesq approximations made and computing on a C-grid.
+	\item JSBACH is the land component of the MPI-ESM, which simulates biogeochemical and biogeophysical terrestrial processes and provides the lower boundary conditions for the atmospheric component over land 
+	\item HAMOCC is a global ocean biogeochemistry model
+\end{description}
+
+The coupling of atmosphere and land on the one hand and ocean and biogeochemistry on the other hand is done by using the separate coupling program OASIS3.
